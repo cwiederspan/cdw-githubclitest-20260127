@@ -21,4 +21,6 @@ copilot
 
 # Restart the CLI
 
+Prompt: Create a fantasy inspired image of a girl in wonder while lost in a forest with lots of wildlife and lush greenery around.
+
 ```
