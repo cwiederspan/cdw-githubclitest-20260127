@@ -4,8 +4,10 @@
 
 ```bash
 
-# Set your OpenAI Key
+# Set your OpenAI Key" (minimal success)
 gh secret set OPENAI_API_KEY --app codespaces
+
+export OPENAI_API_KEY="your api key goes here"
 
 copilot
 
@@ -18,6 +20,5 @@ copilot
 /plugin install workiq@copilot-plugins 
 
 # Restart the CLI
-
 
 ```
