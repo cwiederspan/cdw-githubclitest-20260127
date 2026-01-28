@@ -87,7 +87,7 @@ def main() -> int:
         return 2
 
     base_url = _env("OPENAI_BASE_URL", "https://api.openai.com").rstrip("/")
-    endpoint = f"{base_url}/v1/images"
+    endpoint = f"{base_url}/v1/images/generations"
 
     # Payload per OpenAI Images API
     payload: Dict[str, Any] = {
